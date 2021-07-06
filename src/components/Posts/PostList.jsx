@@ -46,7 +46,6 @@ export const PostList = (props) => {
            * And then both user Details and Post are merged basically imitating the join in terms of db
            * and then the individual post are returned with overall data.
            */}
-
           {loading || userLoading ? (
             <Spinner spinning={loading || userLoading} />
           ) : (
