@@ -1,0 +1,102 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.center_spinner {
+  position: absolute;
+  top: 0;
+  bottom: 65%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-post {
+  height: 180px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+/* .card-post:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+} */
+
+body {
+  margin-top: 20px;
+}
+
+/*==================================================
+  Post Contents CSS
+  ==================================================*/
+
+.post-content {
+  background: #f8f8f8;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #f1f2f2;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.post-content .post-container {
+  padding: 20px;
+}
+
+.post-content .post-container .post-detail {
+  margin-left: 65px;
+  position: relative;
+  bottom: 40px;
+}
+
+.post-content .post-container .post-detail .post-text {
+  line-height: 24px;
+  margin: 0;
+}
+
+.post-content .post-container .post-detail .reaction {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.post-content .post-container .post-detail .post-comment {
+  display: inline-flex;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.post-content .post-container .post-detail .post-comment img.profile-photo-sm {
+  margin-right: 10px;
+}
+
+.post-content .post-container .post-detail .post-comment .form-control {
+  height: 30px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  margin: 7px 0;
+  min-width: 0;
+}
+
+img.profile-photo-md {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+img.profile-photo-sm {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
